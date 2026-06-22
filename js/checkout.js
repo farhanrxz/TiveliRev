@@ -101,10 +101,10 @@ function placeOrder() {
 
 const paymentIcons = {
   "ShopeePay": "https://img.icons8.com/color/48/shopee.png",
-  "QRIS": "https://img.icons8.com/fluency/48/qr-code.png",
-  "BCA": "https://img.icons8.com/color/48/bank.png",
-  "BRI": "https://img.icons8.com/color/48/bank-card-back-side.png",
-  "Mandiri": "https://img.icons8.com/color/48/bank-building.png",
+  "QRIS": "assets/icons/qris-white.png",
+  "Bank BCA": "assets/icons/bca.svg",
+  "Bank BRI": "assets/icons/bri.svg",
+  "Bank Mandiri": "assets/icons/mandiri.svg",
   "Virtual Account": "https://img.icons8.com/fluency/48/receipt.png",
   "Debit / Credit Card": "https://img.icons8.com/fluency/48/bank-card-front-side.png",
   "Cash on Delivery": "https://icons8.com/icon/xGP5FK2yfiS5/cash-on-delivery"
