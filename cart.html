@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cart</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="navbar-container"></div>
+
+<section class="cart-page">
+
+  <h1>Your Cart</h1>
+
+  <div class="cart-container">
+
+    <div id="cart-items"></div>
+  
+  </div>
+
+  <div id="cart-empty" class="cart-empty hidden">
+  <div class="empty-icon">🛒</div>
+  <h2>Your cart is empty</h2>
+  <p>Looks like you haven’t added anything yet.</p>
+  <a href="shop.html" class="btn-primary">Start Shopping</a>
+</div>
+
+<div class="checkout-sticky">
+  <div class="checkout-summary">
+    <span>Total</span>
+    <h3 id="sticky-total">Rp 0</h3>
+  </div>
+
+  <button class="btn-primary-cart" onclick="goCheckout()">
+    Checkout
+  </button>
+</div>
+
+</section>
+
+<div id="confirm-modal" class="modal hidden">
+  <div class="modal-box">
+    <h3>Remove product?</h3>
+    <p>This item will be removed from your cart.</p>
+
+    <div class="modal-actions">
+      <button id="cancel-btn">Cancel</button>
+      <button id="confirm-btn">Remove</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/app.js"></script>
+<script src="js/checkout.js"></script>
+
+</body>
+</html>
