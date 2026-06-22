@@ -993,6 +993,11 @@ aspect-ratio: 3 / 3;
   color: white;
 }
 
+.pay-item img{
+  height: 42px;
+  aspect-ratio: 3 / 3;
+}
+
 .payment-options {
   display: grid;
   gap: 10px;
